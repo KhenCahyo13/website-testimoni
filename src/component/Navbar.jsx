@@ -5,7 +5,7 @@ const Navbar = () => {
         document.getElementById('line1').classList.toggle('line1')
         document.getElementById('line2').classList.toggle('line2')
         document.getElementById('line3').classList.toggle('line3')
-        document.getElementById('navMenu').classList.toggle('-translate-x-0')
+        document.getElementById('navMenu').classList.toggle('-translate-x-96')
     }
 
     window.onscroll = () => {
