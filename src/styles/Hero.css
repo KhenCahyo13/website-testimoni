@@ -1,0 +1,32 @@
+.hero-wrapper {
+    @apply w-full h-[320px] px-4 block mt-10 md:px-10 md:flex md:items-center md:justify-between md:mt-4 md:h-[280px] lg:h-[400px] lg:px-16 lg:mt-14
+}
+
+.btn-testi {
+    @apply px-4 py-2 bg-blue-600 rounded-md text-sm text-white hover:bg-blue-700 transition duration-300 lg:text-base
+}
+
+.btn-hubungi {
+    @apply px-4 py-2 bg-green-500 rounded-md text-sm text-white hover:bg-green-600 transition duration-300 lg:text-base
+}
+
+#devPict {
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes move {
+    0% {
+        top: 0
+    }
+
+    50% {
+        top: 4%
+    }
+
+    100% {
+        top: 0
+    }
+}

@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./component/Footer"
+import Hero from "./component/Hero"
+import Kenapa from "./component/Kenapa"
+import Langkah from "./component/Langkah"
+import Navbar from "./component/Navbar"
+import Pelanggan from "./component/Pelanggan"
+import Testimoni from "./component/Testimoni"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar />
+      <Hero />
+      <Kenapa />
+      <Testimoni />
+      <Pelanggan />
+      <Langkah />
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App

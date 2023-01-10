@@ -1,0 +1,27 @@
+.hamburger-line {
+    @apply w-[24px] h-[1px] block border border-gray-800
+  }
+  
+  .line1 {
+    @apply origin-top-left rotate-45
+  }
+  
+  .line2 {
+    @apply scale-0
+  }
+  
+  .line3 {
+    @apply origin-bottom-left -rotate-45 mt-[7px]
+  }
+  
+  .nav-menu {
+    @apply px-4 py-8 fixed top-0 left-0 bg-white shadow-md w-40 min-h-screen transition duration-300 md:relative md:bg-transparent md:flex md:-translate-x-0 md:shadow-none md:px-0 md:py-0 md:justify-end md:w-full md:min-h-0 md:mt-0 md:pr-10 md:gap-6 lg:pr-[68px] lg:gap-10
+  }
+  
+  .nav-link {
+    @apply font-medium text-sm rounded-md px-3 py-2 hover:text-blue-600 hover:bg-blue-600 hover:bg-opacity-5 md:px-0 md:py-0 md:hover:bg-transparent 
+  }
+
+  .nav-fixed {
+    @apply w-full bg-white border-b border-gray-800 border-opacity-30 bg-opacity-30 fixed top-0 backdrop-blur-sm transition duration-300
+  }
