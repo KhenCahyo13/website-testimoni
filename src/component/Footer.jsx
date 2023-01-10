@@ -13,6 +13,7 @@ const Footer = () => {
                         <a className="bg-blue-600 bg-opacity-20 rounded-full px-2 py-1" href="#instagram"><i className="fa-brands fa-instagram text-xl text-blue-600"></i></a>
                         <a className="bg-blue-600 bg-opacity-20 rounded-full px-2 py-1" href="#twitter"><i className="fa-brands fa-twitter text-xl text-blue-600"></i></a>
                     </div>
+                    <button className="btn-testi mt-4">Berikan Pendapat</button>
                 </div>
                 <div className="mt-12 lg:w-[50%]">
                     <h1 className="font-semibold text-lg lg:text-center lg:text-xl">KOTAK SARAN</h1>
